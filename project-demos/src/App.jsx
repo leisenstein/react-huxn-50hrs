@@ -1,7 +1,8 @@
 //import Counter from "./Components/Counter"
 // import Todo from "./Components/Todo"
+// import Meals from "./Components/Meals"
+import Calculator from "./Components/Calculator"
 
-import Meals from "./Components/Meals"
 
 function App() {
  
@@ -11,7 +12,8 @@ function App() {
       <div>
         {/* <Counter /> */}
         {/* <Todo /> */}
-        <Meals />
+        {/* <Meals /> */}
+        <Calculator />
 
       </div>
     </>
