@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import './Todo.css'
+import '../assets/css/Todo.css'
 
 const Todo = () => {
     const [todos, setTodos] = useState([]);

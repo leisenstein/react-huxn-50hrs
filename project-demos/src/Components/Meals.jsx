@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import './Meals.css'
+import '../assets/css/Meals.css'
 
 const Meals = () => {
     const [items, setItems] = useState([])
