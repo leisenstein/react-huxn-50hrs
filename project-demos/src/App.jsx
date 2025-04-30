@@ -2,8 +2,8 @@
 // import Todo from "./Components/Todo"
 // import Meals from "./Components/Meals"
 // import Calculator from "./Components/Calculator"
-import ToggleBackgroundColor from "./Components/ToggleBackgroundColor"
-// import HiddenSearchBar from "./Components/HiddenSearchBar"
+// import ToggleBackgroundColor from "./Components/ToggleBackgroundColor"
+import HiddenSearchBar from "./Components/HiddenSearchBar"
 
 function App() {
  
@@ -15,8 +15,8 @@ function App() {
         {/* <Todo /> */}
         {/* <Meals /> */}
         {/* <Calculator /> */}
-        <ToggleBackgroundColor />
-        {/* <HiddenSearchBar /> */}
+        {/* <ToggleBackgroundColor /> */}
+        <HiddenSearchBar />
 
       </div>
     </>
