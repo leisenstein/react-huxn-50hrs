@@ -4,8 +4,11 @@
 // import Calculator from "./Components/Calculator"
 // import ToggleBackgroundColor from "./Components/ToggleBackgroundColor"
 // import HiddenSearchBar from "./Components/HiddenSearchBar"
+// import Testimonials from "./Components/Testimonials"
+// import Accordion from "./Components/Accordion"
+// import { accordionData } from './utils/content'
 
-import Testimonials from "./Components/Testimonials"
+import Form from "./Form"
 
 function App() {
  
@@ -19,7 +22,14 @@ function App() {
         {/* <Calculator /> */}
         {/* <ToggleBackgroundColor /> */}
         {/* <HiddenSearchBar /> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
+        {/* <div className="accordion">
+          {accordionData.map(({title, content}) => (
+            <Accordion title={title} content={content} />
+          ))}
+        </div> */}
+
+        <Form />
       </div>
     </>
   )
