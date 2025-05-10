@@ -8,7 +8,7 @@
 // import Accordion from "./Components/Accordion"
 // import { accordionData } from './utils/content'
 
-import Form from "./Form"
+import Form from "./Components/Form"
 
 function App() {
  
