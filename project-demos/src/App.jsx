@@ -3,7 +3,9 @@
 // import Meals from "./Components/Meals"
 // import Calculator from "./Components/Calculator"
 // import ToggleBackgroundColor from "./Components/ToggleBackgroundColor"
-import HiddenSearchBar from "./Components/HiddenSearchBar"
+// import HiddenSearchBar from "./Components/HiddenSearchBar"
+
+import Testimonials from "./Components/Testimonials"
 
 function App() {
  
@@ -16,8 +18,8 @@ function App() {
         {/* <Meals /> */}
         {/* <Calculator /> */}
         {/* <ToggleBackgroundColor /> */}
-        <HiddenSearchBar />
-
+        {/* <HiddenSearchBar /> */}
+        <Testimonials />
       </div>
     </>
   )
